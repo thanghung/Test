@@ -1,0 +1,21 @@
+﻿<Window x:Class="Test.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525"
+        Background="AliceBlue">
+    <Grid>
+        <TextBlock x:Name="txtnumber1" HorizontalAlignment="Left" Margin="49,113,0,0" TextWrapping="Wrap" Text="a =" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txtnumber2" HorizontalAlignment="Left" Margin="49,155,0,0" TextWrapping="Wrap" Text="b =" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txtnumber3" HorizontalAlignment="Left" Margin="49,200,0,0" TextWrapping="Wrap" Text="Result" VerticalAlignment="Top" RenderTransformOrigin="0.492,-0.095"/>
+        <TextBox x:Name="Number1" HorizontalAlignment="Left" Height="23" Margin="151,106,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="193" TextChanged="Number1_TextChanged"/>
+        <TextBox x:Name="Number2" HorizontalAlignment="Left" Height="23" Margin="151,148,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="193" TextChanged="Number2_TextChanged"/>
+        <TextBox x:Name="Number3" HorizontalAlignment="Left" Height="23" Margin="151,193,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="193"/>
+        <Button x:Name="cong" Content="+" HorizontalAlignment="Left" Margin="49,254,0,0" VerticalAlignment="Top" Width="28" Click="cong_Click"/>
+        <Button x:Name="tru" Content="-" HorizontalAlignment="Left" Margin="116,254,0,0" VerticalAlignment="Top" Width="28" Click="tru_Click"/>
+        <Button x:Name="__" Content="/" HorizontalAlignment="Left" Margin="247,254,0,0" VerticalAlignment="Top" Width="28" Click="___Click"/>
+        <Button x:Name="Exit" Content="Exit" HorizontalAlignment="Left" Margin="321,254,0,0" VerticalAlignment="Top" Width="39" Click="Exit_Click"/>
+        <Button x:Name="nhan" Content="*" HorizontalAlignment="Left" Margin="184,254,0,0" VerticalAlignment="Top" Width="28" RenderTransformOrigin="-5.381,-1.892" Click="nhan_Click"/>
+        <Label Content="Math" HorizontalAlignment="Left" Margin="208,23,0,0" VerticalAlignment="Top" FontSize="36" FontFamily="Segoe Script" Foreground="#FFFB0606" />
+
+    </Grid>
+</Window>
